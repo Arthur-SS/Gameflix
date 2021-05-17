@@ -1,0 +1,83 @@
+@media screen and (max-width:900px) {
+    .conteudoGame {
+        width: 90vw;
+    }
+}
+
+@media screen and (max-width:815px) {
+    #slider {
+        height: 40vw;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .enredo {
+        display: none;
+    }
+    .botoes {
+        margin-top: 10%;
+    }
+}
+
+@media screen and (max-width:640px) {
+    nav {
+        display: none;
+    }
+    header .container{
+        height: 100%;
+        background-color: #191919c0;
+        align-items: flex-start;
+    }
+    #menu2:checked~nav{
+        display: flex;
+        flex-direction: column;
+        width: 100px;
+    }
+    .menu_itens {
+        display: flex;
+        flex-direction: column;
+        background: none;
+        padding: 20px;
+        align-items: flex-end;
+    }
+    .icon_menu {
+        background-color: aliceblue;
+        margin-top: 5px;
+        width: 40px;
+        height: 7px;
+        border-radius: 5px;
+    }
+    nav ul {
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+    }
+    nav ul li {
+        display: flex;
+        flex-direction: column;
+    }
+    nav ul li a {
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+    .menu {
+        flex-direction: column;
+        z-index: 101;
+    }
+    .menu1{
+        margin: 0;
+    }
+    .menuT{
+        text-align: center;
+    }
+    .logo{
+        font-size: 40px;
+    }
+    .mLogo{
+        margin-top: 17px;
+    }
+    #slider{
+        margin-top: 90px;
+    }
+}

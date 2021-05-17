@@ -1,0 +1,155 @@
+*{
+    margin: 0%;
+    text-decoration: none;
+    
+    
+}
+body{
+    background-color: #141414;
+    font-family: sans-serif
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #191919;
+    height: 50px;
+    padding: 5px;
+    transition-duration: 1s;
+}
+.position{
+    width: 100vw;
+    position: fixed;
+    z-index: 100;
+}
+.menu1{
+    margin-right: 20px;
+}
+.menuT{
+    padding: 10px;
+    color: #faebd7;
+    transition-duration: 300ms;
+}
+.menuT:hover{
+    background-color: #faebd7;
+    color:#141414
+}
+.logo{
+    font-family: 'Russo One', sans-serif;
+    color: #0004ff;
+    font-size: 24px;
+}
+.game-em-alta .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Slider para Js */
+#slider{
+    margin-top: 60px;
+    width: 100vw;
+    height: 30vw;
+    position: relative;
+}
+#slider img{
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 700ms;
+}
+#slider img.selected{
+    opacity: 100;
+}
+/* Fim Slider para Js */
+.conteudoGame{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50vw;
+    height: 30vw;
+    left: 2%;
+    z-index: 99;
+}
+.text{
+    margin-top: 20px;
+    color: #faebd7;
+    font-weight: bold;
+}
+.titulo{
+    font-family: 'Merriweather', serif;
+    font-size: 50px;
+}
+.enredo{
+    text-align: justify;
+    margin: 20px 0px;
+}
+.botoes{
+    display: flex;
+    flex-direction: row;
+}
+.botao{
+    background-color: #1d1d1dce;
+    color: #faebd7;
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    margin-right: 10px;
+    transition: 200ms;
+}
+.botao:hover{
+    background-color: #faebd7e5;
+    color: #1d1d1d;
+    cursor: pointer;
+}
+
+/* Capas e carrosel */
+#tituloSecao{
+    color: #faebd7;
+    margin: 20px;
+}
+.item img{
+    object-fit: cover;
+}
+
+/* Menu botão */
+#menu2, .menu_itens {
+    display: none;
+ }
+.menu{
+display: flex;
+align-items: center;
+}
+
+/*  */
+footer{
+    background-color: #292929;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.autor h2, .autor a{
+    color:#faebd7 ;
+    transition-duration: 1s;
+}
+.autor a:hover{
+    color: #6790ff;
+}
+
+/* scroll bar */
+::-webkit-scrollbar-track {
+    background-color: #00000056;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    background: #505050;
+}
+::-webkit-scrollbar-thumb {
+    background: #1a1a1a;
+    border-radius: 5px;
+}
